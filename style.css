@@ -1,0 +1,39 @@
+#left-devices {
+    display: flex;
+    flex-direction: column;
+
+    border-style: solid;
+}
+
+#container {
+    width: 400px;
+}
+
+.device-holder {
+    display: flex;
+    flex-direction: row;
+    border-style: solid;
+    justify-content: left;
+}
+
+#device-holder-header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    text-align: center;
+    border-style: solid;
+    font-weight: bold;
+}
+
+.device-cell {
+    border: solid;
+    border-color: red;
+    text-align: center;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+td {
+    color: black;
+    text-align: center;
+}
